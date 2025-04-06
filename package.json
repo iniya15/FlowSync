@@ -1,5 +1,17 @@
 {
+  "name": "flowsync",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://iniya15.github.io/FlowSync",
   "dependencies": {
     "react-router-dom": "^7.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
